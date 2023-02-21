@@ -5,14 +5,14 @@
 #pop out two celebrities
 #count the remaining celebrities 
 
-favourite_musicians = ["Dababy", "Polo G", "Drake","21 savage" ,"Rema" ]
+favourite_musicians = ["Santan Dave", "Polo G", "Central Cee","A2 anti" ,"Burna Boy" ]
 for musician in favourite_musicians:
     print(musician)
-favourite_musicians.append ("Cardi B")
-favourite_musicians.append("Dax")
-favourite_musicians.append("J cole")
-favourite_musicians.append("Playboi carti")
-favourite_musicians.append("Lil Tjay")
+favourite_musicians.append ("Popcaan")
+favourite_musicians.append("K-trap")
+favourite_musicians.append("Tion Wayne")
+favourite_musicians.append("Polo G")
+favourite_musicians.append("Vybz Kartel")
 for musician in favourite_musicians:
 
     print(musician)
