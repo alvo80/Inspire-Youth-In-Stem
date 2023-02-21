@@ -1,0 +1,16 @@
+print("             x                  ")
+print("            xxx                 ")
+print("           xxxxxx               ")
+print("          xxxxxxxx              ")
+print("         xxxxxxxxxxx            ")
+print("        xxxxxxxxxxxxx           ")
+
+
+print("              *                   ")
+print("            *****                 ")
+print("           *******                ")
+print("         **********               ")
+print("        ************              ")
+print("         **********               ")
+print("            *****                 ")
+print("              *                   ")
