@@ -1,0 +1,35 @@
+*{
+    background-color: coral;
+}
+
+h1{ font-size: 12px;
+    font-weight: bold;
+    color: floralwhite;
+    align-self: center;
+    background-color: aquamarine;
+    font-family: Arial,serif;
+}
+#msg_button{
+
+    color: darkred;
+    margin:25px;
+    align-self: center;
+    border:none;
+    border: radius 10px;
+    background-color: violet;
+}
+    
+p{
+    color:crimson;
+    font-size: x-large;
+    align-self: auto;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+#email-button{
+    color:lightcoral;
+    border: none;
+    background-color: black;
+    border-radius: inherit;
+
+}

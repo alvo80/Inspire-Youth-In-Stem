@@ -1,7 +1,7 @@
 #block of code that are executed together
 #functions use key word called def
 def print_name():
-     print("My name is Alsssssssssssssssssssssssvin")
+     print("My name is Alvin")
      print("I love football")
      print("I also enjoy cooking")
      print("I am a Christian")

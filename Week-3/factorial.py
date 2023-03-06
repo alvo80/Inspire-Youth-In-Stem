@@ -1,4 +1,4 @@
-factorial(3))#write a program to calculate factorial of a number using functions
+#write a program to calculate factorial of a number using functions
 def factorial(n):
     if n < 0:
         print("No factorial for negative numbers")
@@ -6,7 +6,7 @@ def factorial(n):
         return 1
     else:
         return n * factorial(n-1)
-num = int(input("Enter a number: "))
+num = int(input("Enter a number: "))  
 print("Factorial of", num, "is", factorial(num))
 
 #write a program to calculate simple interest
