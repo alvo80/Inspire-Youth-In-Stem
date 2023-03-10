@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="text">Javascript Basics</h1>
+        <h1 id="f_name">Alvin</h1>
+        <h1 id="s_name">Muriithi</h1>
+        <h1 id="age">21</h1>
+        <h1 id="weight">63</h1>
+
+        <h2 id="f_number"></h2>
+        <h2 id="s_number"></h2>
+        <h2 id="sum"></h2>
+
+        <script>
+            //variables in javascript
+            //number
+            //Arithmetic operaters
+            //+,-,*,%
+            var f_number =20;
+            var s_number =25;
+
+            var sum_num=f_number + s_number;
+            var diff_num = f_number-s_number;
+            var product_num=f_number*s_number;
+            var quotient=f_number/s_number;
+            var modulus=age
+            var n1,n2,n3,n4; // declare variables
+            //string
+            var my_first_name = "Alvin"
+            var my_second_name = "Muriithi"
+            var my_city = "Nairobi"
+            var age= 21;
+            var weight= 63;
+
+
+            //Arrays
+            let fruits = {"pineapple", "banana", "orange", "pawpaw"}
+
+            let my_fruits= fruits[fruits.length -1];
+            
+            let my_fruits= fruits[0]
+
+            //conditions --if else
+            if(age > 18){
+                msg = "you can drive";
+            }
+            else{
+                msg = "still too young to drive"
+            }
+
+            document.getElementsByName("f_name").innerHTML = my_first_name;
+            document.getElementsByName("s_name").innerHTML = my_second_name;
+            document.getElementsByName("age").innerHTML = age;
+            document.getElementsByName("weight").innerHTML = weight;
+
+            document.getElementsByName("f_name").innerHTML = f_number;
+            document.getElementsByName("s_number").innerHTML = s_number;
+            document.getElementsByName("sum").innerHTML = sum_num;
+            document.getElementsByName("sum").innerHTML = call msg;
+        </script>
+        <button>Click Me</button>
+    </body>
+</html>

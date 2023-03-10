@@ -1,24 +1,94 @@
-
 *{
     margin: 0px;
     padding: 0px;
-    background-image: url(images/banner.png) 
+     
     
 }
 
 .header{
-    min-height: 100v;
+    min-height: 100vh;
     width: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url(images/banner.png) 
-
+    position: relative; 
+    background-image: url(images/banner.png); 
 
    
 }
-.nav{
+.header img{
+    width: 300px;
+    height:200px;
+}
+nav{
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
+    
+}
 
+nav img{
+    width: 150px;
+    align-items: center;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    color: crimson;
+    font-size: 13px;
+    align-items: right;
+    display: inline-block;
+
+}
+.nav-links ul li a {
+    padding:8px 12px;
+    
+    position: relative;
+    color:black;
+    text-align: right;
+    
+}
+.hero-btn{
+    color: black(18, 19, 20);
+    text-decoration: none;
+    color: aqua;
+    border: 10px;
+    padding: 12px, 34px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px;
+    background: rgb(230, 230, 238);
+    transition: 1s;
+}
+.text-box{
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+}
+
+.text-box{
+    text-align: center;
+}
+
+.text-box h1{
+    font-style: oblique;
+    text-decoration: underline;
+    color: black;
+}
+.text-box p{
+    margin: 10px 40px;
+    font-size: 32px;
+    color:maroon;
+    font-style: oblique;
+    text-indent: 2px;
+    font-weight: lighter;
+}
+
+.text-box a{
+    color:black;
 }
